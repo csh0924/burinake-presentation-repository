@@ -230,16 +230,3 @@ vlmResultModal
         vlmResultModal.classList.remove("active");
     }
 });
-
-document
-.querySelectorAll("[data-template-source]")
-.forEach(target => {
-
-    const template =
-    document.getElementById(target.dataset.templateSource);
-
-    if(!template) return;
-
-    target.textContent =
-    template.innerHTML.trim();
-});
