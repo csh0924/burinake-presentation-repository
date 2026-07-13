@@ -9277,3 +9277,57 @@ Slide 8 - AKS System Architecture
     border:1px dashed rgba(148,163,184,.32);
     background:rgba(248,250,252,.56);
 }
+
+.appendix-link-panel{
+    height:calc(100% - 92px);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:22px;
+    padding:42px;
+    border-radius:18px;
+    border:1px solid rgba(34,197,94,.36);
+    background:linear-gradient(135deg, rgba(6,78,59,.96), rgba(22,101,52,.92));
+    box-shadow:0 20px 46px rgba(6,78,59,.28);
+    text-align:center;
+}
+
+.appendix-link-panel i{
+    width:74px;
+    height:74px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:22px;
+    color:#dcfce7;
+    background:rgba(255,255,255,.14);
+    font-size:34px;
+}
+
+.appendix-link-panel span{
+    color:#bbf7d0;
+    font-size:22px;
+    font-weight:900;
+}
+
+.appendix-link-panel a{
+    display:block;
+    max-width:980px;
+    padding:18px 24px;
+    border-radius:16px;
+    border:1px solid rgba(255,255,255,.22);
+    background:rgba(255,255,255,.12);
+    color:#ffffff;
+    font-size:22px;
+    font-weight:900;
+    line-height:1.35;
+    text-decoration:none;
+    word-break:break-all;
+    box-shadow:0 14px 30px rgba(0,0,0,.16);
+}
+
+.appendix-link-panel a:hover{
+    color:#dcfce7;
+    background:rgba(255,255,255,.17);
+}
